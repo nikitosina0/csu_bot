@@ -5,7 +5,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.filters import Command
 from schedule_reader import load_schedule, get_groups, get_schedule_day, get_schedule_week, is_odd_week, get_week_parity
 
-TOKEN = "7888089291:AAGs70w9wQG6nls8Ph9mbBmCGl2i8ofdDVY"
+TOKEN = "BOT_TOKEN"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 

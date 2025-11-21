@@ -1,0 +1,4 @@
+runtime: python
+entrypoint: python bot.py
+requirementsPath: requirements.txt
+pythonVersion: '3.11'
