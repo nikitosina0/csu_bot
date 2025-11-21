@@ -1,4 +1,13 @@
-runtime: python
-entrypoint: python bot.py
-requirementsPath: requirements.txt
-pythonVersion: '3.11'
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: "3.11"
+build:
+  requirementsPath: requirements.txt
+  useCache: true
+run:
+  scriptName: bot.py
+  command: null
+  persistenceMount: /data
+  containerPort: "80"
